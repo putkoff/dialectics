@@ -1,0 +1,56 @@
+<?php
+ $xx= $xx + 1;
+ $x = 0;$file_name = 'Highlights2.php'; $final="";
+$tag = array ("https://thedailydialectics.com/recommended/links.php","https://thedailydialectics.com/all/wipowcomms.php","https://thedailydialectics.com/SommerfeldGoubau/Google.php","https://thedailydialectics.com/SommerfeldGoubau/Facebook.php","https://thedailydialectics.com/SommerfeldGoubau/NASA.php","https://thedailydialectics.com/SommerfeldGoubau/CERN.php","https://thedailydialectics.com/SurfaceWaves/PhilipsANDBoeing.php","https://thedailydialectics.com/SurfaceWaves/Visiv.php","https://thedailydialectics.com/space/Solaren.php","https://thedailydialectics.com/tesla/nikolatesla","https://thedailydialectics.com/ProblemsANDSolutions/TeslaANDGoubau.php","https://thedailydialectics.com/tesla/fbivault.php","https://thedailydialectics.com/tesla/patents.php","https://www.scribd.com/doc/114715328/Teslas-Flying-Machine.php","https://thedailydialectics.com/tesla/timeline.php","https://thedailydialectics.com/tesla/TheStrangeLifeofNikolaTesla.php","https://thedailydialectics.com/tesla/TESLA-EQ.php","https://thedailydialectics.com/tesla/nikolateslasecret.php","https://thedailydialectics.com/insectextinction/mosquitoes.php","https://thedailydialectics.com/insectextinction/bees.php","https://thedailydialectics.com/insectextinction/walmart.php","https://thedailydialectics.com/cannabis/medicinal.php","https://thedailydialectics.com/cannabis/rso.php","https://thedailydialectics.com/cannabis/sources.php","https://thedailydialectics.com/quantum/quantum.php","https://thedailydialectics.com/quantum/trump","https://thedailydialectics.com/quantum/mandelaeffect.php","https://thedailydialectics.com/mems/mems.php","https://thedailydialectics.com/mems/MicroFluidics.php","https://thedailydialectics.com/space/SpaceHome.php","https://thedailydialectics.com/space/wilsondisclosure.php","https://thedailydialectics.com/space/SpaceBlackOut.php","https://thedailydialectics.com/ProblemsANDSolutions/Panspermia.php","https://thedailydialectics.com/space/TheFalacyOfSpaceExploration.php","https://thedailydialectics.com/space/UFOS.php","https://thedailydialectics.com/space/UFOPatents.php","https://thedailydialectics.com/education/educational.php","https://thedailydialectics.com/education/thevoynicmanuscript.php","https://thedailydialectics.com/SommerfeldGoubau/MATLAB.php","https://thedailydialectics.com/SommerfeldGoubau/SommerfeldGoubau.php","https://thedailydialectics.com/SurfaceWaves/SurfaceWaves.php","https://thedailydialectics.com/SurfaceWaves/ZenneckWave.php","https://thedailydialectics.com/SommerfeldGoubau/Patents.php","https://thedailydialectics.com/space/WirelessTransmission.php","https://thedailydialectics.com/SommerfeldGoubau/MilitaryTech.php","https://thedailydialectics.com/SommerfeldGoubau/GoubauReality.php","https://thedailydialectics.com/SommerfeldGoubau/Patents.php","https://thedailydialectics.com/ProblemsANDSolutions/PatentMorality.php","https://thedailydialectics.com/ProblemsANDSolutions/NuclearEnergy.php","https://thedailydialectics.com/ProblemsANDSolutions/DiminishingResources.php","https://thedailydialectics.com/ProblemsANDSolutions/OilANDGasCure.php","https://thedailydialectics.com/ProblemsANDSolutions/AvoidingDevistation.php","https://thedailydialectics.com/ProblemsANDSolutions/DownsidesToOverVaccination.php","https://thedailydialectics.com/ProblemsANDSolutions/SolarFeasibilityOutline.php","https://thedailydialectics.com/ProblemsANDSolutions/ModernBeliefsANDBadPractices","https://thedailydialectics.com/ProblemsANDSolutions/OurSkeletalHeritage.php","https://thedailydialectics.com/ProblemsANDSolutions/OurMonopolyOnMonopolyMoney.php","https://thedailydialectics.com/ProblemsANDSolutions/OurFiscalPolicyANDHowToFixIt.php","https://thedailydialectics.com/economics/glasssteagall.php","https://thedailydialectics.com/ProblemsANDSolutions/AllocatingForOurFuture.php","https://thedailydialectics.com/ProblemsANDSolutions/WoordrowWilsonsRegret.php","https://thedailydialectics.com/ProblemsANDSolutions/SocialismANDtheUS.php","https://thedailydialectics.com/economics/taxreform.php","https://thedailydialectics.com/AI/neuralink.php","https://thedailydialectics.com/beatz/beatz.php");
+
+    
+do {
+    
+
+$beg ='<div class="contenthigh" style="width:100%;height:400px;overflow-x:scroll;"><h3>FEATURED ARTICLES</h3>
+<section class="cardvid" style="width:1000%;border-top:5px solid #000000;overflow-y:hidden;font-size: 18px;">';
+$end = '</section></div>';
+$c = '<a id="' . $x . '" href="';
+$cl='" target="_blank" rel="noreferrer"><div class="card--contenthigh" style="width:200px;color:white;background:#2C3539;height:500px"> <center><b>';
+$cla = '</b></center><div style="width:200px;background:white;border:2px solid black;height:500px;"><img src="';
+$clas = '" style="background:white;border:2px solid black;height:150px;" alt="';
+$class = '" height="15%" width="100%" ><br><center><font style="background:white;color:black">';
+$classs = '</font></center></div></div></a>';
+
+
+
+$name = substr(strrchr($tag[$x], "/"), 1);
+
+
+
+$tags = get_meta_tags($tag[$x]);
+$link = $tag[$x];
+$tit =  $tags['title'];       // name
+$le = strlen($tit);
+echo $le;
+$len = (23 - $le);
+echo $len;
+if ($len > 0) {
+
+    $tit = $tags['title'] . '<br><br>';
+}else {$tit = $tags['title'];
+};
+$desc =  $tags['description'];  // a php manual
+if ($desc == "" || $desc == " ") {
+    $desc = $tags['og:description'];
+};
+$img = $tags['twitter:image'];
+$words =  $tags['keywords'];
+$final = $final . "\n" . $c . $link . $cl . $tit . $cla . $img . $clas . $name . $class . $desc . $classs . "\n" ;
+
+echo $final;  
+$x=$x+1;
+}
+while ($x <= 65); {
+$file_name = 'HighlightsSave.php';
+$file = fopen($file_name , 'w') or die("X_x");
+fwrite($file, $beg . $final . $end);
+fclose($file);
+
+};
+?>
