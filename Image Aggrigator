@@ -1,0 +1,26 @@
+<?php 
+ $xx= $xx + 1;$x = 0;
+$img = array ("http://img.youtube.com/vi/lA77zsJ31nA/0.jpg","http://img.youtube.com/vi/4svUKPeDa5A/0.jpg","http://img.youtube.com/vi/qpZL9WCvuTI/0.jpg","http://img.youtube.com/vi/kRN6CXt7Q8g/0.jpg","http://img.youtube.com/vi/3deug3lStj8/0.jpg","http://img.youtube.com/vi/1xSn1-q10Yc/0.jpg","http://img.youtube.com/vi/KIR7tcS5d8A/0.jpg","http://img.youtube.com/vi/7pZWBQLanp4/0.jpg","http://img.youtube.com/vi/BHx3YcErXzw/0.jpg","http://img.youtube.com/vi/H6HLjpj4Nt4/0.jpg","http://img.youtube.com/vi/wFiW2lqdnlM/0.jpg","http://img.youtube.com/vi/8ZPqFVM6j6A/0.jpg","http://img.youtube.com/vi/-5yh2HcIlkU/0.jpg","http://img.youtube.com/vi/-z03gKig0SI/0.jpg","http://img.youtube.com/vi/fr9YkXQGTiw/0.jpg","http://img.youtube.com/vi/Sa52TWoUFCk/0.jpg","http://img.youtube.com/vi/80__LLZK4zg/0.jpg","http://img.youtube.com/vi/nrTXGIkyPNc/0.jpg","http://img.youtube.com/vi/JRzZl_nq6fk/0.jpg","http://img.youtube.com/vi/pgdFFwvM2Aw/0.jpg","http://img.youtube.com/vi/ES-2XY3leHU/0.jpg","http://img.youtube.com/vi/65yLjmQ93SI/0.jpg","http://img.youtube.com/vi/lXUQ-DdSDoE/0.jpg","http://img.youtube.com/vi/TnUYcTuZJpM/0.jpg","http://img.youtube.com/vi/g59nSURxYgk/0.jpg","http://img.youtube.com/vi/DUEFcSesD-w/0.jpg","http://img.youtube.com/vi/nH3VFxLafOU/0.jpg","http://img.youtube.com/vi/fwXQjRBLwsQ/0.jpg","http://img.youtube.com/vi/ExEjXLMd4VA/0.jpg","http://img.youtube.com/vi/XdAiTcu8vEU/0.jpg","http://img.youtube.com/vi/xPGUL4ja0g4/0.jpg","http://img.youtube.com/vi/bjeNDKSTWIg/0.jpg","http://img.youtube.com/vi/JUDSeb2zHQ0/0.jpg","http://img.youtube.com/vi/VVgUZv9ccyQ/0.jpg","http://img.youtube.com/vi/Pcg1c157qZQ/0.jpg","http://img.youtube.com/vi/HhEs8vRpi4s/0.jpg","http://img.youtube.com/vi/H8kxNnrdjdc/0.jpg","http://img.youtube.com/vi/l8rQNdBmPek/0.jpg","http://img.youtube.com/vi/eU8AQazyqzU/0.jpg","http://img.youtube.com/vi/6MBgIcyZ3GQ/0.jpg","http://img.youtube.com/vi/n0NYBTkE1yQ/0.jpg","http://img.youtube.com/vi/hepidgw-l1w/0.jpg","http://img.youtube.com/vi/8ozdD6avrYE/0.jpg","http://img.youtube.com/vi/J98ed6oML2A/0.jpg","http://img.youtube.com/vi/mD9PWDeldng/0.jpg","http://img.youtube.com/vi/f0HPqd8dPeE/0.jpg","http://img.youtube.com/vi/_b8TyJKcz0c/0.jpg","http://img.youtube.com/vi/wvJAgrUBF4w/0.jpg","http://img.youtube.com/vi/YKJzDZrgtlM/0.jpg","http://img.youtube.com/vi/52Q-gpPHiS0/0.jpg","http://img.youtube.com/vi/vQTYaL9jCMo/0.jpg","http://img.youtube.com/vi/OVeizdVkmL8/0.jpg","http://img.youtube.com/vi/8i2OVqWo9s0/0.jpg","http://img.youtube.com/vi/GnEWOYKgI4o/0.jpg","http://img.youtube.com/vi/PieaE8zWLxk/0.jpg","http://img.youtube.com/vi/HzBwaCFVzBs/0.jpg","http://img.youtube.com/vi/p6Fas-DmVWU/0.jpg","http://img.youtube.com/vi/NUa_XbgZgq8/0.jpg","http://img.youtube.com/vi/a3_4Bc6tRp4/0.jpg","http://img.youtube.com/vi/QzjMLoPMjWI/0.jpg","http://img.youtube.com/vi/vRqg9m4x5HE/0.jpg","http://img.youtube.com/vi/o4pP0XjQDJ8/0.jpg");
+do {
+$link = $img[$x];
+$new= substr($link, 0, -6);
+$name = substr(strrchr($new, "/"), 1);
+$fir = $name[0];
+$name = ltrim($name, $fir);
+$name="_".$name;
+$name = str_replace( '-','_',$name);
+$path = $_SERVER['DOCUMENT_ROOT'].'/imgs/im/'.$name . '.jpg';
+$ch = curl_init($link);
+$fp = fopen($path, 'wb');
+curl_setopt($ch, CURLOPT_FILE, $fp);
+curl_setopt($ch, CURLOPT_HEADER, 0);
+curl_exec($ch);
+curl_close($ch);
+fclose($fp);
+$x++;
+}
+while ($x <= 64); {
+
+
+}
+?>
