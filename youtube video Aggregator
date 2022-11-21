@@ -1,0 +1,132 @@
+<?php
+$x = 0;$file_name = 'vid2.php'; $final="";$finaldesc="";$whole="";
+$c = '<?php include('.'"'.'vidvar.php'.'"'.');?>'."\n".'<center>'."\n".'<div id="deskframe">'."\n".'</div>'."\n".'<section  class="cardvid" id="cardv" >'."\n".'<div id="name" name="name">'."\n".'</div>'."\n".'<div class="cardvid--content" id="';
+$cl='">'."\n".'<a href="<?php echo $url_';
+$cla=';?>" name="<?php echo $smtit_';
+$clas=';?>" target="gid" style="background:white; padding:0">'."\n".'<center>'."\n".'<div style="background:white;width:100%;color:black;overflow-x:hidden">';
+$class='</div>'."\n".'<img src="';
+$classss='" alt="<?php echo $metit_';
+$classs='. "...";?>" width="350px" height="196.75px" >'."\n".'</center>'."\n".'</a>'."\n".'</div>';
+$beg = '<?php include('."'".'vidvar.php'."'".');?><center><div id="title"></div><div class="row"  id="iframe"> <div class="iframe-container"><iframe id="gid" name="gid" src=""></iframe></div></div><p id="A"></p><button class="button" onClick="randoom();">random</button><section  class="cardvid" id="cardv" >'."\n"."\n";
+$end = '</section></div>';
+
+      
+      $vid =  array ( "https://www.youtube.com/embed/0TiOx7_DVj0","https://www.youtube.com/embed/sTJ7AzBIJoI","https://www.youtube.com/embed/LEkALCbhzFE","https://www.youtube.com/embed/FRoIUtb_jB8","https://www.youtube.com/embed/af-JOupY3JE","https://www.youtube.com/embed/UWyiGwajqUY","https://www.youtube.com/embed/ujcSwuRBXRc","https://www.youtube.com/embed/0nfIuTZz_zI","https://www.youtube.com/embed/tRL5dQLqi3Q","https://www.youtube.com/embed/gUvZdxG5jNo","https://www.youtube.com/embed/TttHkDRuyZw","https://www.youtube.com/embed/-2a9ur1QUFg","https://www.youtube.com/embed/FUemx2ZabOw","https://www.youtube.com/embed/KIR7tcS5d8A","https://www.youtube.com/embed/lA77zsJ31nA","https://www.youtube.com/embed/4svUKPeDa5A","https://www.youtube.com/embed/qpZL9WCvuTI","https://www.youtube.com/embed/kRN6CXt7Q8g","https://www.youtube.com/embed/3deug3lStj8","https://www.youtube.com/embed/1xSn1-q10Yc","https://www.youtube.com/embed/7pZWBQLanp4","https://www.youtube.com/embed/BHx3YcErXzw","https://www.youtube.com/embed/H6HLjpj4Nt4","https://www.youtube.com/embed/wFiW2lqdnlM","https://www.youtube.com/embed/8ZPqFVM6j6A","https://www.youtube.com/embed/-5yh2HcIlkU","https://www.youtube.com/embed/-z03gKig0SI","https://www.youtube.com/embed/fr9YkXQGTiw","https://www.youtube.com/embed/Sa52TWoUFCk","https://www.youtube.com/embed/80__LLZK4zg","https://www.youtube.com/embed/nrTXGIkyPNc","https://www.youtube.com/embed/JRzZl_nq6fk","https://www.youtube.com/embed/pgdFFwvM2Aw","https://www.youtube.com/embed/ES-2XY3leHU","https://www.youtube.com/embed/65yLjmQ93SI","https://www.youtube.com/embed/lXUQ-DdSDoE","https://www.youtube.com/embed/TnUYcTuZJpM","https://www.youtube.com/embed/g59nSURxYgk","https://www.youtube.com/embed/DUEFcSesD-w","https://www.youtube.com/embed/nH3VFxLafOU","https://www.youtube.com/embed/fwXQjRBLwsQ","https://www.youtube.com/embed/ExEjXLMd4VA","https://www.youtube.com/embed/XdAiTcu8vEU","https://www.youtube.com/embed/xPGUL4ja0g4","https://www.youtube.com/embed/bjeNDKSTWIg","https://www.youtube.com/embed/JUDSeb2zHQ0","https://www.youtube.com/embed/VVgUZv9ccyQ","https://www.youtube.com/embed/Pcg1c157qZQ","https://www.youtube.com/embed/HhEs8vRpi4s","https://www.youtube.com/embed/H8kxNnrdjdc","https://www.youtube.com/embed/l8rQNdBmPek","https://www.youtube.com/embed/eU8AQazyqzU","https://www.youtube.com/embed/6MBgIcyZ3GQ","https://www.youtube.com/embed/n0NYBTkE1yQ","https://www.youtube.com/embed/hepidgw-l1w","https://www.youtube.com/embed/8ozdD6avrYE","https://www.youtube.com/embed/J98ed6oML2A","https://www.youtube.com/embed/mD9PWDeldng","https://www.youtube.com/embed/f0HPqd8dPeE","https://www.youtube.com/embed/_b8TyJKcz0c","https://www.youtube.com/embed/wvJAgrUBF4w","https://www.youtube.com/embed/YKJzDZrgtlM","https://www.youtube.com/embed/52Q-gpPHiS0","https://www.youtube.com/embed/vQTYaL9jCMo","https://www.youtube.com/embed/OVeizdVkmL8","https://www.youtube.com/embed/8i2OVqWo9s0","https://www.youtube.com/embed/GnEWOYKgI4o","https://www.youtube.com/embed/PieaE8zWLxk","https://www.youtube.com/embed/HzBwaCFVzBs","https://www.youtube.com/embed/p6Fas-DmVWU","https://www.youtube.com/embed/NUa_XbgZgq8","https://www.youtube.com/embed/a3_4Bc6tRp4","https://www.youtube.com/embed/QzjMLoPMjWI","https://www.youtube.com/embed/vRqg9m4x5HE","https://www.youtube.com/embed/o4pP0XjQDJ8","https://www.youtube.com/embed/pxLw0YU3pXg","https://www.youtube.com/embed/WooCJ3mye54","https://www.youtube.com/embed/qYyVRU5Z0so","https://www.youtube.com/embed/3YN6h2Qgv0o","https://www.youtube.com/embed/DGk3O-zg2E8","https://www.youtube.com/embed/jUy2HYoUd6M","https://www.youtube.com/embed/-CLIpBpLV90","https://www.youtube.com/embed/oXLxTjc9m3k","https://www.youtube.com/embed/0JHwyqCf2uY","https://www.youtube.com/embed/n2F_PepgyKk","https://www.youtube.com/embed/2_oMywYDf84","https://www.youtube.com/embed/Kdup42Epq0o","https://www.youtube.com/embed/C4-BXSANskc","https://www.youtube.com/embed/wAJ5e5TafC0","https://www.youtube.com/embed/Abl-kJfDI58","https://www.youtube.com/embed/u3A2dFgKbbE","https://www.youtube.com/embed/OPI6OfBME5E","https://www.youtube.com/embed/MUJ62NF9iYQ","https://www.youtube.com/embed/8mFyiYh94YE","https://www.youtube.com/embed/nlO8UDsc-Fc","https://www.youtube.com/embed/VN1xeMlBDvU","https://www.youtube.com/embed/PYxf8Syieas","https://www.youtube.com/embed/EaIYRM1yrM4","https://www.youtube.com/embed/nlO8UDsc-Fc","https://www.youtube.com/embed/EB-jWfzkz_E","https://www.youtube.com/embed/LFu-s6ZmGyE","https://www.youtube.com/embed/qljY-YfFaPc","https://www.youtube.com/embed/pc7v49k5FhY","https://www.youtube.com/embed/AmcSt5hU4qA","https://www.youtube.com/embed/oXLxTjc9m3k","https://www.youtube.com/embed/C4-BXSANskc","https://www.youtube.com/embed/pMbHswNoGWM","https://www.youtube.com/embed/dL4B_DNBtvc","https://www.youtube.com/embed/vrn5B9a8aOk","https://www.youtube.com/embed/9xEuhEHDJM8","https://www.youtube.com/embed/hfkwCE3BeBs","https://www.youtube.com/embed/GEUyhhMEs7U","https://www.youtube.com/embed/n2F_PepgyKk","https://www.youtube.com/embed/MUJ62NF9iYQ","https://www.youtube.com/embed/uxQ99R4gOWY","https://www.youtube.com/embed/t2merTZ7QFs","https://www.youtube.com/embed/OPI6OfBME5E","https://www.youtube.com/embed/qPPBkhjp1fY","https://www.youtube.com/embed/XDnMODCdhB0","https://www.youtube.com/embed/teBV0EoJJY8","https://www.youtube.com/embed/_sbT3_9dJY4","https://www.youtube.com/embed/JpW6Th-OBwA"
+          );
+do {
+$link = $vid[$x];
+$name = str_replace( 'https://www.youtube.com/embed/',"",$link);
+echo $name;
+$fir = $name[0];
+echo '('.$fir;
+
+
+if(is_numeric($fir)) {
+    $midname = ltrim($name, $fir);
+    $midname = '_'.$midname;
+    echo ' = istinteger)';
+}else{
+    $midname=$name;
+    echo ' = notinteger)';
+}
+$varname = str_replace( '-','_',$midname);
+echo $varname."\n";
+$ja = 'https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=';
+$jas = '&format=json';
+$jaso = $ja . $name . $jas;
+
+$curl= curl_init($jaso);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+$return = curl_exec($curl);
+curl_close($curl);
+$result = json_decode($return, true);
+$tit=$result['title'];
+$tit = str_replace( "'","",$tit);
+$tit = str_replace( '-',"",$tit);
+$tit = str_replace( '.',"",$tit);
+$tit = str_replace( '"',"",$tit);
+$viddesc = $result['og:description'];
+$tit = str_replace( '"',''.'',$tit);
+$t = 'http://img.youtube.com/vi/';
+$thu = '/0.jpg';
+$th = $t . $name . $thu;
+$thuu = $t . $name . $thu;
+
+
+$th1 = $th . $name . '/1.jpg';
+$th2 = $th . $name . '/2.jpg';
+$th3 = $th . $name . '/3.jpg';
+
+$ths = '$' . 'th_'. $varname . '= '.'"' .$th.'";';
+$ths1 = '$' . 'th1_'. $varname . '= '.'"' .$th1.'";';
+$ths2 = '$' . 'th2_'. $varname . '= '.'"' .$th2.'";';
+$ths3 = '$' . 'th3_'. $varname . '= '.'"' .$th3.'";';
+
+$thdir='/imgs/im/'.$varname.'.jpg';
+$thsdir = '$' . 'thdir_'. $varname . '= '.'"' .$thdir.'";';
+
+
+$vidurl = '$' . 'url_' . $varname . '='.'"' . $vid[$x].'";';
+$viddesc = '$' . 'viddesc_' . $varname . '='.'"' . $viddesc.'";';
+$title = "$". 'tit_'.$varname . '='.'"'. $tit.'";';
+$titme = '$' . 'metit_'. $varname  . '='.'"' . substr($tit, 0, 30).'";';
+$titsm = '$' . 'smtit_' . $varname . '='.'"' . substr($tit, 0, 15).'";';
+$titvi = '$' . 'vitit_' . $varname . '='.'"' . substr($tit, 0, 35).'...";';
+
+
+$ve = $varname;
+$ur = '<?php echo'.' $'.'url_'.$varname.';?>';
+$sm = '<?php echo'.' $'.'smtit_'.$varname.';?>';
+$me = '<?php echo'.' $'.'metit_'.$varname.';?>';
+$vi = '<?php echo'.' $'.'vitit_'.$varname.';?>';
+$th = '/imgs/im/'.$varname.'.jpg';
+$ti = '<?php echo'.' $'.'tit_'.$varname.';?>';
+$comp = 'https://thedailydialectics.com/imgs/im/UCys84cYZ1.jpg';
+$img = 'http://img.youtube.com/vi/'.$name.'/0.jpg';
+$path = $_SERVER['DOCUMENT_ROOT'].'/imgs/im/'.$varname . '.jpg';
+$ch = curl_init($img);
+$fp = fopen($path, 'wb');
+curl_setopt($ch, CURLOPT_FILE, $fp);
+curl_setopt($ch, CURLOPT_HEADER, 0);
+curl_exec($ch);
+curl_close($ch);
+fclose($fp);
+
+
+if (md5_file($comp) === md5_file($path)) 
+{
+    echo "  SAME  ";
+    $x++;
+} 
+else 
+{
+    // different images
+
+    echo "  DIFF!  ";
+$final = $final . "\n" . $c .  $link . $cl . $varname . $cla . $tit . $clas . $th  . $class . $varname .$classss.$thdir. $classs . "\n" ;
+$finaldesc = $finaldesc .  "\n" . $title . "\n" . $vidurl  . "\n" .$viddesc."\n". $titme ."\n" . $titvi . "\n" . $titsm . "\n". $ths. "\n". $ths1. "\n". $ths2. "\n". $ths3.  "\n". $thsdir."\n";
+
+$w = '<div class="cardvid--content" href= "'. $link.'" id="fr'.$x.'">';
+$wh = '<a href="'. $ur.'" name="'.$sm.'" target="gid" style="background:white; padding:0" id="vid'.$x.'" name="vid'.$x.'">';
+$who = '<center><div class="row" style="background:white;width:100%;overflow-x:hidden;color:black">'.$vi.'</div><img src="'.$th.'" alt="'.$me.'" width="350px" height="196.75px" >';
+$whol = '</center></a></div>';
+$whole = $whole. $w . $wh . $who . $whol ."\n";
+$x++;
+
+
+}
+
+}
+while ($x <= 124); {
+$file_name = 'vidvar.php';
+$file = fopen($file_name , 'w') or die("X_x");
+fwrite($file, '<?php' . $finaldesc . ';?>' );
+fclose($file);
+$file_name2 = 'vid2.php';
+$file2 = fopen($file_name2 , 'w') or die("X_x");
+fwrite($file2, $beg .  $whole . $end );
+fclose($file2);
+
+
+};
+?>
