@@ -1,0 +1,57 @@
+<?php
+ $xx= $xx + 1;
+ $x = 0;$file_name = 'links2.php'; $final="";
+ 
+ 
+$tag = array ("https://www.nro.gov/Freedom-of-Information-Act-FOIA/Declassified-Records/Other-Public-Releases/FOIA-For-All-Releases/","https://youtu.be/0TiOx7_DVj0","https://www.microsoft.com/en-us/research/blog/leveraging-blockchain-to-make-machine-learning-models-more-accessible/","https://www.reddit.com/r/CryptoCurrency/comments/ci0h55/microsoft_using_ethereum_blockchain_to_create/?utm_medium=android_app&utm_source=share","https://vimeo.com/19614592","https://youtu.be/KIR7tcS5d8A","https://youtu.be/lA77zsJ31nA","https://www.independent.co.uk/news/people/julian-assange-wikileaks-founder-will-accept-arrest-if-un-rules-against-him-a6852551.html?fbclid=IwAR2XKUSH8WW4wW-FNPmQ0nX64-H-gIWnua_BTTU6oeiWfqP9wZicliqB5NY","https://m.youtube.com/watch?v=sTJ7AzBIJoI","https://www.npr.org/2019/04/20/715470174/yellow-vest-protesters-fueled-by-anger-over-notre-dame-funds-march-in-paris","https://www.livescience.com/57927-new-zealand-part-of-eighth-continent.html","http://bit.ly/Crown-Shyness-Phenomenon-Explained","https://www.theguardian.com/media/live/2019/apr/11/wikileaks-founder-julian-assange-arrested-at-the-ecuadorean-embassy-live-updates?page=with:block-5caf3ad68f08bc7376aeb38f","https://www.youtube.com/watch?v=4svUKPeDa5A","https://texashillcountry.com/mysterious-tesla-tower-texas/","https://www.sciencedaily.com/releases/2019/03/190314092802.htm","https://www.emfacts.com/","https://wikileaks.org/gifiles/docs/12/1264544_fwd-ignorance-is-futile-about-google-.html","https://www.nytimes.com/2019/03/13/technology/facebook-data-deals-investigation.html","https://thedailydialectics.com/space/UFOPatents","https://www.youtube.com/watch?v=LEkALCbhzFE&lc=z233svch2njnxjinpacdp43abgmcc45f2ayt2ibtad1w03c010c","https://thedailydialectics.com/mems/mems","https://engineering.berkeley.edu/magazine/fall-2016/neural-dust","https://thedailydialectics.com/education/thevoynicmanuscript","https://www.growweedeasy.com/how-to-make-feminized-seeds","https://yadi.sk/i/_95Q2TSDQ2hTpg More @ The Daily Dialectic Youtube:","https://www.youtube.com/channel/UCys84cYZ1-Yy3B4uIhzPgsQ","https://yadi.sk/i/_95Q2TSDQ2hTpg","https://www.youtube.com/channel/UCys84cYZ1-Yy3B4uIhzPgsQ","https://www.youtube.com/watch?v=-z03gKig0SI","https://ediovision.blogspot.com/2019/03/delayed-choice-quantum-eraser-quantum.html","https://thedailydialectics.com/tesla/TESLA-EQ","https://thedailydialectics.com/tesla/TheStrangeLifeofNikolaTesla","https://youtu.be/Sa52TWoUFCk","https://thedailydialectics.com/tesla/nikolateslasecret","https://thedailydialectics.com/Nikola%20Tesla/Nikola%20Tesla%20Secret%20PDF%20(Complete%20with%20Bonuses).zip","https://thedailydialectics.com/tesla/nikolatesla","https://thedailydialectics.com/ProblemsANDSolutions/MicroFluidics","https://www.youtube.com/channel/UCX80zx4_vJ79Fi-bHx_mbGQ","https://www.youtube.com/watch?v=teBV0EoJJY8","https://www.forbes.com/sites/gilpress/2019/02/28/4-observations-from-recent-surveys-about-the-state-of-artificial-intelligence-ai/#2a2b2a064e7a","https://thispersondoesnotexist.com","https://www.youtube.com/watch?v=-5yh2HcIlkU","https://www.theguardian.com/technolog...","https://www.fastcodesign.com/3048941/...","https://www.npr.org/2019/02/21/696626918/worlds-largest-bee-is-spotted-for-first-time-in-decades","https://youtu.be/nrTXGIkyPNc","https://en.wikipedia.org/wiki/Active_Denial_System","https://www.extremetech.com/extreme/194271-us-government-uses-fake-cell-towers-flown-on-airplanes-to-harvest-phone-data-and-track-down-criminals","https://www.telegraph.co.uk/science/2017/08/26/windscreen-phenomenon-car-no-longer-covered-dead-insects/","https://thedailydialectics.com/SommerfeldGoubau/Facebook","https://www.linkedin.com/in/yael-maguire-9547343 ","https://arxiv.org/abs/1306.5709 ","http://www.thedailydialectics.com/MEMs/MEMs Explition of facebook and googles MEMS focysed IOT systems: ","http://www.thedailydialectics.com/ALL/Explanation","https://www.bbc.com/news/technology-47296481","https://www.googlegrey.com","http://www.thedailydialectics.com/education/PhiKal/Shulgin-Pihkal-AChemicaLoveStory.pdf PIHKAL Anthology Shulgin: ","http://www.thedailydialectics.com/education/PhiKal/PIHKALAnthologyShulgin.pdf Both are permenantly available here,ill eventually be adding an EZ load viewer for all posted textbooks and viewable content. download or plugin view for the time being ","https://www.thedailydialectics.com/education/educational enjoy!","http://www.thedailydialectics.com/education/PhiKal/Shulgin-Pihkal-AChemicaLoveStory.pdf","http://www.thedailydialectics.com/education/PhiKal/PIHKALAnthologyShulgin.pdf","http://thedailydialectics.com/SurfaceWaves/Visiv","https://efarmnewsar.com/2019-02-18/argentina-denies-any-responsibility-in-the-gmo-rapeseed-case.html","http://www.thedailydialectics.com/SommerfeldGoubau/facebookDesc.html, for easier reconciliation of t... See More","http://www.thedailydialectics.com","https://www.roboticsbusinessreview.com/consumer/why_softbank_bought_boston_dynamics/","https://www.fastcompany.com/90285552/the-most-powerful-person-in-silicon-valley","http://tedgunderson.info/index_htm_files/MKULTRA--CIA MindControl Research and Documentation.pdf","http://www.chemtrailplanet.com/PDF/Origins_and_Techniques_of_Monarch_Mind_Control.pdf","https://lacavernadefilosofia.files.wordpress.com/2008/11/mind-controlled-slaves-por-fritz-springmeier1-en-ingles.pdf","https://en.wikipedia.org/wiki/George_Clinton_(vice_president)","https://www.youtube.com/watch?v=vQTYaL9jCMo","https://techcrunch.com/2018/12/31/this-clever-ai-hid-data-from-its-creators-to-cheat-at-its-appointed-task/","https://www.youtube.com/channel/UCgaz7BbVbv8IF_ZtkMBzFnA/videos","https://thedailydialectics.com","https://www.youtube.com/watch?v=_sbT3_9dJY4","http://www.thedailydialectics.com/SommerfeldGoubau/Google","http://www.usdebtclock.org/","http://www.thedailydialectics.com/EDUCATIONAL/EDUCATIONAL","http://www.trueactivist.com/this-is-the-cannabis-oil-recipe-rick-simpson-used-to-heal-his-cancer-and-recommends-to-others","http://thedailydialectics.com/space/UFOS","https://pastebin.com/yREFSVVR ","https://pastebin.com/KkwUuWw2","https://pastebin.com/yREFSVVR","https://pastebin.com/KkwUuWw2","https://www.reddit.com/user/joben_joe/comments/apmny4/google_grey_google_facebooks_iot_goubau_networks/","https://www.reddit.com/r/conspiracy/comments/apm4sz/ai_integration_elon_musk_google_nuralink_facebook/");
+    
+do {
+    
+
+$beg ='<div class="contenthigh" style="width:100%;height:400px;overflow-x:scroll;"><h3>FEATURED ARTICLES</h3>
+<section class="cardvid" style="width:1000%;border-top:5px solid #000000;overflow-y:hidden;font-size: 18px;">';
+$end = '</section></div>';
+$c = '<a id="' . $x . '" href="';
+$cl='" target="_blank" rel="noreferrer"><div class="card--contenthigh" style="width:200px;color:white;background:#2C3539;height:500px"> <center><b>';
+$cla = '</b></center><div style="width:200px;background:white;border:2px solid black;height:500px;"><img src="';
+$clas = '" style="background:white;border:2px solid black;height:150px;" alt="';
+$class = '" height="15%" width="100%" ><br><center><font style="background:white;color:black">';
+$classs = '</font></center></div></div></a>';
+
+
+
+$name = substr(strrchr($tag[$x], "/"), 1);
+
+
+
+$tags = get_meta_tags($tag[$x]);
+$link = $tag[$x];
+$tit =  $tags['title'];       // name
+$le = strlen($tit);
+echo $le;
+$len = (23 - $le);
+echo $len;
+if ($len > 0) {
+
+    $tit = $tags['title'] . '<br><br>';
+}else {$tit = $tags['title'];
+};
+$desc =  $tags['description'];  // a php manual
+if ($desc == "" || $desc == " ") {
+    $desc = $tags['og:description'];
+};
+$img = $tags['twitter:image'];
+$words =  $tags['keywords'];
+$final = $final . "\n" . $c . $link . $cl . $tit . $cla . $img . $clas . $name . $class . $desc . $classs . "\n" ;
+
+echo $final;  
+$x=$x+1;
+}
+while ($x <= 81); {
+$file_name = 'links2.php';
+$file = fopen($file_name , 'w') or die("X_x");
+fwrite($file, $beg . $final . $end);
+fclose($file);
+
+};
+?>
