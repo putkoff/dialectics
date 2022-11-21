@@ -1,5 +1,5 @@
 # dialectics
-
+This Repository will house an eclectic mix of PHP HTML and Javascript webtools
 <h1 align="center">Hi 👋, I'm John</h1>
 <h3 align="center">I Am proficient in making niche tools Mainly via python and solidity.</h3>
 
