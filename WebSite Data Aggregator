@@ -18,12 +18,7 @@ $clas = '" style="background:white;border:2px solid black;height:150px;" alt="';
 $class = '" height="15%" width="100%" ><br><center><font style="background:white;color:black">';
 $classs = '</font></center></div></div></a>';
 
-
-
 $name = substr(strrchr($tag[$x], "/"), 1);
-
-
-
 $tags = get_meta_tags($tag[$x]);
 $link = $tag[$x];
 $tit =  $tags['title'];       // name
